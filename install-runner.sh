@@ -9,7 +9,7 @@ if [ "$#" -ne 2 ]; then
     exit 1
 fi
 
-export FORGEJO_URL="$2"
+export FORGEJO_URL="$1"
 export RUNNER_SECRET="$2"
 
 echo "Configuration:"
