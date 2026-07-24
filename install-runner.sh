@@ -3,7 +3,7 @@
 #set -ex
 
 # Parse command-line arguments
-if [ "$#" -ne 3 ]; then
+if [ "$#" -ne 2 ]; then
     echo "Usage: $0 <FORGEJO_URL> <RUNNER_SECRET>"
     echo "Example: $0 https://dev.k3p.io 7c31591e8b67225a116d4a4519ea8e507e08f71f"
     exit 1
