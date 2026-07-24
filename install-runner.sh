@@ -5,7 +5,6 @@
 sudo service forgejo-runner stop || true
 
 sudo userdel runner || true
-sudo useradd --create-home runner
 
 ARCH=$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/')
 
